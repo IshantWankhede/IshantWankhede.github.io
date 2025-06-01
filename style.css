@@ -1,0 +1,21 @@
+/* Minimal navigation bar styling for GitHub Pages */
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+  background: #f8f8f8;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.navbar a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar a:hover {
+  color: #007acc;
+}
